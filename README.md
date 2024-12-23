@@ -48,7 +48,7 @@ pwsh .\Migrate-CanvasUsers.ps1
    - Go to the SMC backend and select the `db.auth_user` table.
    - In the query field, type:  
      ```sql
-     db.auth_user,username!='admin'
+     db.auth_user.username!='admin'
      ```
    - Select the delete checkbox and click submit.  
    **Warning:** This will delete all users from SMC except the admin user.
