@@ -8,9 +8,7 @@ This script facilitates updating the `unique_id` field in the PostgreSQL `pseudo
 ## Prerequisites
 - **[PowerShell 7](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell)**.
 - **[.NET 6.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime)**.
-- **npgsql.dll** library available.
 - **Active Directory Module for Windows PowerShell** installed.
-- **ImportExcel PowerShell Module** (v7.8.10 or later) in the specified directory (`.\ImportExcel\7.8.10`).
 - PostgreSQL database connection details (address, database name, username, and password).
 
 ---
