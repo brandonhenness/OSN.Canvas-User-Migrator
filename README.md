@@ -1,4 +1,4 @@
-# SBCTC.CanvasUserMigrator
+# OSN.Canvas User Migrator
 
 ## Overview
 This script facilitates updating the `unique_id` field in the PostgreSQL `pseudonyms` table by pulling data from Active Directory and two CSV files (`auth_user` and `student_info`). It verifies data integrity and outputs a compiled CSV for import into the SMC database. This process ensures that Canvas accounts match OSN user account naming conventions.
