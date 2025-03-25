@@ -19,7 +19,7 @@ This script facilitates updating the `unique_id` field in the PostgreSQL `pseudo
 2. Install **[.NET 6.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime)**.
 
 ### 2. Export Data from SMC Database
-1. Navigate to the SMC database: [https://smc.ed/appadmin](https://smc.ed/appadmin).
+1. Navigate to the SMC database: [https://smc.site1.osn.wa.gov/appadmin](https://smc.site1.osn.wa.gov/appadmin).
 2. Login and go to **db.auth_user**.
 3. Scroll to the bottom and click the **Export as CSV** button.
 4. Save the file to the same directory as the script.
@@ -43,7 +43,7 @@ pwsh .\Migrate-CanvasUsers.ps1
 
 ## Post-Update Tasks
 1. **Clear All Users from SMC Database**  
-   - Go to the SMC backend `https://smc.site1.osn.wa.gov/appadmin` and select the `db.auth_user` table.
+   - Go to the SMC backend [https://smc.site1.osn.wa.gov/appadmin](https://smc.site1.osn.wa.gov/appadmin) and select the `db.auth_user` table.
    - In the query field, type:  
      ```sql
      db.auth_user.username!='admin'
