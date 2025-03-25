@@ -43,7 +43,7 @@ pwsh .\Migrate-CanvasUsers.ps1
 
 ## Post-Update Tasks
 1. **Clear All Users from SMC Database**  
-   - Go to the SMC backend and select the `db.auth_user` table.
+   - Go to the SMC backend `https://smc.site1.osn.wa.gov/appadmin` and select the `db.auth_user` table.
    - In the query field, type:  
      ```sql
      db.auth_user.username!='admin'
